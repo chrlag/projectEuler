@@ -8,7 +8,7 @@ public class MultiplesOfThreeAndFive {
         this.number = number;
     }
 
-    public double returnSum() {
+    public double calculateSum() {
         if (number < 0) {
             return -1;
         }

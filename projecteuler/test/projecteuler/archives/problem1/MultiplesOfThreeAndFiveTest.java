@@ -13,7 +13,7 @@ class MultiplesOfThreeAndFiveTest {
         double sum;
 
         // Act
-        sum = target.returnSum();
+        sum = target.calculateSum();
 
         // Assert
         assertEquals(23, sum);
@@ -26,7 +26,7 @@ class MultiplesOfThreeAndFiveTest {
         double sum;
 
         // Act
-        sum = target.returnSum();
+        sum = target.calculateSum();
 
         // Assert
         assertEquals(233168, sum);
@@ -39,7 +39,7 @@ class MultiplesOfThreeAndFiveTest {
         double sum;
 
         // Act
-        sum = target.returnSum();
+        sum = target.calculateSum();
 
         // Assert
         assertEquals(-1, sum);
