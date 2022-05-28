@@ -35,5 +35,4 @@ class EvenFibonacciNumbersTest {
     private EvenFibonacciNumbers createTarget(double limit) {
         return new EvenFibonacciNumbers(limit);
     }
-
 }
